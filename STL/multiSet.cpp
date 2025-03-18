@@ -11,6 +11,7 @@ int main(){
     ms.insert(2);
     ms.insert(3);
     ms.insert(3);
+    ms.insert(30);
     ms.insert(4);
 
     // int count = ms.count(3);
@@ -29,6 +30,9 @@ int main(){
     // cout << "Count after deletion " << cont1 << endl;
 
 
+    for(auto it: ms){
+        cout << it << " ";
+    }
 
 
 }

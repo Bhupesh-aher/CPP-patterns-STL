@@ -10,22 +10,26 @@ int main(){
     st.insert(40);
     st.insert(5);
 
-    auto it = st.find(5);
-    cout << *(it);
+    // auto it = st.find(5);
+    // cout << *(it);
 
-    cout << endl;
-    st.erase(5);
+    // cout << endl;
+    // st.erase(5);
     
-    auto it2 = st.find(5);
-    cout << *(it2);
+    // auto it2 = st.find(5);
+    // cout << *(it2);
 
-    cout << endl;
-    auto it3 = st.find(40);
-    cout << *(it3) << " va";
-    st.erase(it3);
+    // cout << endl;
+    // auto it3 = st.find(40);
+    // cout << *(it3) << " va";
+    // st.erase(it3);
 
-    cout << endl;
+    // cout << endl;
 
-    auto ele = st.find(40);
-    cout << *(ele) << " value";
+    // auto ele = st.find(40);
+    // cout << *(ele) << " value";
+
+    for(auto it: st){
+        cout << it<< " ";
+    }
 }
